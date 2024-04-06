@@ -76,12 +76,12 @@ This is a Java version of [zxcvbn](https://github.com/dropbox/zxcvbn), a passwor
 
 ## Install
 
-https://central.sonatype.com/artifact/com.nulab-inc/zxcvbn/1.8.2
+https://central.sonatype.com/artifact/com.nulab-inc/zxcvbn/1.9.0
 
 Gradle:
 
 ```
-compile 'com.nulab-inc:zxcvbn:1.8.2'
+compile 'com.nulab-inc:zxcvbn:1.9.0'
 ```
 
 Maven:
@@ -90,7 +90,7 @@ Maven:
 <dependency>
   <groupId>com.nulab-inc</groupId>
   <artifactId>zxcvbn</artifactId>
-  <version>1.8.2</version>
+  <version>1.9.0</version>
 </dependency>
 ```
 

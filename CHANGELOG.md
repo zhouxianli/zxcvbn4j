@@ -1,5 +1,28 @@
 # Changelog
 
+## [1.9.0](https://github.com/nulab/zxcvbn4j/compare/1.8.2...1.9.0) (2024-04-06)
+
+* addition of Portuguese in the languages available for feedback [#173](https://github.com/nulab/zxcvbn4j/pull/173) ([javcasrod](https://github.com/javcasrod))
+* Add exports com.nulabinc.zxcvbn.io to module-info.java [#175](https://github.com/nulab/zxcvbn4j/pull/175) ([HaasJona](https://github.com/HaasJona))
+* Updated URL to "Five Algorithms..." article [#169](https://github.com/nulab/zxcvbn4j/pull/169) ([weberhofer](https://github.com/weberhofer))
+* refactor: modifier 'private' is redundant for enum constructors [#168](https://github.com/nulab/zxcvbn4j/pull/168) ([vvatanabe](https://github.com/vvatanabe))
+* refactor: Deprecate setters in AttackTimes class [#167](https://github.com/nulab/zxcvbn4j/pull/167) ([vvatanabe](https://github.com/vvatanabe))
+* refactor: Deprecate com.nulabinc.zxcvbn.Guess and introduce new interface in com.nulabinc.zxcvbn.guesses [#166](https://github.com/nulab/zxcvbn4j/pull/166) ([vvatanabe](https://github.com/vvatanabe))
+* refactor: Deprecate com.nulabinc.zxcvbn.Matcher and introduce new interface in com.nulabinc.zxcvbn.matchers [#165](https://github.com/nulab/zxcvbn4j/pull/165) ([vvatanabe](https://github.com/vvatanabe))
+* refactor: Initialize all Strength properties via constructor [#164](https://github.com/nulab/zxcvbn4j/pull/164) ([vvatanabe](https://github.com/vvatanabe))
+* fix: fix sonarcloud maintainability phase 4 [#163](https://github.com/nulab/zxcvbn4j/pull/163) ([vvatanabe](https://github.com/vvatanabe))
+* fix: fix sonarcloud maintainability phase 3 [#162](https://github.com/nulab/zxcvbn4j/pull/162) ([vvatanabe](https://github.com/vvatanabe))
+* fix: fix sonar cloud maintainability phase 2 [#161](https://github.com/nulab/zxcvbn4j/pull/161) ([vvatanabe](https://github.com/vvatanabe))
+* fix: fix sonarcloud maintainability [#160](https://github.com/nulab/zxcvbn4j/pull/160) ([vvatanabe](https://github.com/vvatanabe))
+* fix: Fix sonarcloud reliability [#159](https://github.com/nulab/zxcvbn4j/pull/159) ([vvatanabe](https://github.com/vvatanabe))
+* chore: Update GitHub Actions Configuration [#158](https://github.com/nulab/zxcvbn4j/pull/158) ([vvatanabe](https://github.com/vvatanabe))
+* refactor: refactor and improve code readability in Scoring [#157](https://github.com/nulab/zxcvbn4j/pull/157) ([vvatanabe](https://github.com/vvatanabe))
+* fix: fix warning messages of checkstyle [#156](https://github.com/nulab/zxcvbn4j/pull/156) ([vvatanabe](https://github.com/vvatanabe))
+* refactor: Refactoring Feedback [#155](https://github.com/nulab/zxcvbn4j/pull/155) ([vvatanabe](https://github.com/vvatanabe))
+* refactor: refactoring TimeEstimates class [#154](https://github.com/nulab/zxcvbn4j/pull/154) ([vvatanabe](https://github.com/vvatanabe))
+* refactor: refactoring guesses package [#153](https://github.com/nulab/zxcvbn4j/pull/153) ([vvatanabe](https://github.com/vvatanabe))
+* chore: update gradle version to 8.3 and update gradle plugins to latest [#152](https://github.com/nulab/zxcvbn4j/pull/152) ([vvatanabe](https://github.com/vvatanabe))
+
 ## [1.8.2](https://github.com/nulab/zxcvbn4j/compare/1.8.1...1.8.2) (2023-08-21)
 
 * fix: fix the discrepancy in password guesses between zxcvbn and zxcvbn4j [#151](https://github.com/nulab/zxcvbn4j/pull/151) ([vvatanabe](https://github.com/vvatanabe))
